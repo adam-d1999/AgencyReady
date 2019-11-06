@@ -1,0 +1,128 @@
+/*--TYPOGRAPHY--
+font-family: 'ZCOOL XiaoWei', serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+/*--GLOBAL STYLES--*/
+*, *::after, *::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+
+}
+
+p {
+    font-family: 'ZCOOL XiaoWei', serif;
+}
+
+nav {
+    font-family: 'Roboto', sans-serif; 
+}
+
+a {
+    text-decoration: none;
+    color: #E86829;
+}
+
+/*--NAVIGATION--*/
+.main-nav {
+    list-style-type: none;
+    padding: 2rem 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+}
+
+.main-nav a {
+    text-decoration: none;
+    font-size: 2rem;
+     color: white;
+}
+
+.main-nav a:hover {
+    border: solid white 3px;
+    padding: 3px 4px;
+    transition: border 0.2s ease-in-out;
+}
+
+/*--BLOG PAGE--*/
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-item {
+    border: solid black 3px;
+    font-size: large;
+    margin: 20px;
+}
+
+.grid-item p {
+    padding: 10px;
+}
+
+.grid-item a {
+    text-transform: uppercase;
+}
+
+.grid-item:last-child {
+    grid-column: 1/span 2;
+    max-width: 50%;
+    justify-self: center;
+}
+/*--BLOG PAGE MEDIA QUERY--*/
+
+@media screen and (min-width: 45em) {
+    .grid-container {
+        grid-template-columns: repeat(3, 1fr);
+        margin: 0 auto;
+    }
+}
+
+/*--BLOG PAGE 1--*/
+.blog-one-title {
+    font-size: x-large;
+    background-color: #E86829;
+    margin-bottom: 10px;
+}
+
+.blog-one-container {
+    padding: 20px;
+    font-size: medium;
+}
+
+.references {
+    list-style-type: disc;
+}
+
+
+/*--BLOG PAGE 2--*/
+
+/*--BLOG PAGE 3--*/
+
+/*--FOOTER--*/
+.page-footer {
+    background-color: black;  
+    color: white;
+    padding: 10px;
+    font-size: small;
+}
+
+.page-footer a {
+color: white;
+}

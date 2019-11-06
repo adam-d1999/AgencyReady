@@ -1,0 +1,290 @@
+/*--TYPOGRAPHY--
+font-family: 'ZCOOL XiaoWei', serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+/*--GLOBAL STYLES--*/
+*, *::after, *::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+
+}
+
+p {
+    font-family: 'ZCOOL XiaoWei', serif;
+}
+
+nav {
+    font-family: 'Roboto', sans-serif; 
+}
+
+a {
+    text-decoration: none;
+    color: #E86829;
+}
+
+label {
+    font-family: 'ZCOOL XiaoWei', serif;
+}
+/*--NAVIGATION--*/
+.page-nav {
+    background-color: black;
+}
+
+.main-nav {
+    list-style-type: none;
+    padding: 2rem 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main-nav a {
+    text-decoration: none;
+    font-size: 2rem;
+     color: white;
+}
+
+.main-nav a:hover {
+    border: solid white 3px;
+    padding: 3px 4px;
+    transition: border 0.2s ease-in-out;
+}
+
+/*--HERO--*/
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("../images/header3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding: 125px 0;
+    font-size: medium;
+}
+
+.hero-container h1 {
+    padding: 10px;
+}
+
+.hero-container h2 {
+    padding: 10px;
+
+}
+
+
+/*--ABOUT--*/
+
+
+.about-text {
+    padding: 10px;
+    font-size: large;
+}
+
+.about-head {
+    padding: 10px;
+    margin: 10px auto 1px auto;
+    font-size: large;
+    text-align: left;
+}
+
+.about-head h2 {
+    text-transform: uppercase;
+}
+
+/*--ABOUT MEDIA QUERY--*/
+
+@media screen and (min-width: 45em) {
+   .about {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+}
+
+/*--PORTFOLIO--*/
+.port_title {
+    font-size: large;
+    text-align: center;
+    width: 140px;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+
+.portfolio_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project_1 {
+    max-width: 250px;
+    max-height: 250px;
+}
+
+.project_1 img {
+    padding: 20px;
+    max-width: 250px;
+    max-height: 250px;
+    border-radius: 0%;
+}
+
+.project_2 img {
+    padding: 10px;
+    max-width: 250px;
+    max-height: 250px;
+    border-radius: 50%;
+}
+
+.project_3 img {
+    padding: 10px;
+    max-width: 250px;
+    max-height: 250px;
+}
+
+.text_1 {
+    padding: 10px;
+    font-size: large;
+}
+
+.text_2 {
+    padding: 10px;
+    font-size: large;
+}
+
+.text_3 {
+    padding: 10px;
+    font-size: large;
+}
+
+/*--PORTFOLIO MEDIA QUERY--*/
+
+@media screen and (min-width: 45em) {
+    .portfolio_container {
+        margin: 0 auto;
+        max-width: 1000px;
+
+    }
+    .port_title {
+        margin: 0 auto;
+        max-width: 500px;
+    }
+    .align-left {
+        align-self: flex-start;
+        max-width: 500px;
+    }
+
+    .align-right {
+        align-self: flex-end;
+        max-width: 500px;
+    }
+
+
+    .text_2, .text_3, .text_1 {
+        text-align: justify;
+    }
+
+}
+
+/*--Contact--*/
+.contact-head {
+    font-size: large;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.full-name {
+    padding: 10px;
+}
+
+.email {
+    padding: 10px;
+}
+
+.subject {
+    padding: 10px;
+}
+
+.message {
+    padding: 10px;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/*--CONTACT FORM--*/
+#full-name {
+    margin: 10px;
+}
+
+#email {
+    margin: 10px;
+}
+
+#subject {
+    margin: 10px;
+}
+
+#message {
+    margin: 10px;
+    padding: 10px;
+}
+
+.contact-container {
+    font-size: large;
+    margin: 20px;
+}
+
+.contact-input {
+    border: solid #E86829 2px;
+    padding: 5px;
+}
+
+#submit {
+    margin: 10px;
+    margin-bottom: 10px;
+
+}
+
+/*--CONTACT MEDIA QUERY--*/
+@media screen and (min-width: 45em) {
+    .contact-container {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+}
+
+/*--FOOTER--*/
+.page-footer {
+    background-color: black;  
+    color: white;
+    padding: 10px;
+    font-size: small;
+}
+
+.page-footer a {
+color: white;
+}
+
+/*--FOOTER MEDIA QUERY--*/
+
