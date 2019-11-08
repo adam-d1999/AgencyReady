@@ -1,0 +1,77 @@
+/*--GLOBAL STYLES--*/
+*, *::after, *::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    background-color: #EEEEEE;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+
+}
+
+p {
+    font-family: 'ZCOOL XiaoWei', serif;
+}
+
+nav {
+    font-family: 'Roboto', sans-serif; 
+}
+
+a {
+    text-decoration: none;
+    color: #E86829;
+}
+
+label {
+    font-family: 'ZCOOL XiaoWei', serif;
+}
+/*--NAVIGATION--*/
+.page-nav {
+    background-color: black;
+}
+
+.main-nav {
+    list-style-type: none;
+    padding: 2rem 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main-nav a {
+    text-decoration: none;
+    font-size: 2rem;
+     color: white;
+}
+
+.main-nav a:hover {
+    border: solid white 3px;
+    padding: 3px 4px;
+    transition: border 0.2s ease-in-out;
+}
+
+
+
+/*--FOOTER--*/
+.page-footer {
+    background-color: black;  
+    color: white;
+    padding: 10px;
+    font-size: small;
+}
+
+.page-footer a {
+color: white;
+}

@@ -13,6 +13,7 @@ font-family: 'Roboto', sans-serif;
 html {
     box-sizing: border-box;
     font-size: 62.5%;
+    background-color: #EEEEEE;
 }
 
 img {
@@ -71,7 +72,7 @@ label {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url("../images/header3.jpg");
+    background-image: url("../images/header4.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -81,10 +82,13 @@ label {
 
 .hero-container h1 {
     padding: 10px;
+    font-variant: small-caps;
+    font-size: 5rem;
 }
 
 .hero-container h2 {
     padding: 10px;
+
 
 }
 
@@ -127,6 +131,10 @@ label {
     text-transform: uppercase;
 }
 
+.portfolio {
+    margin: 4rem 0;
+}
+
 .portfolio_container {
     display: flex;
     flex-direction: column;
@@ -134,27 +142,22 @@ label {
 }
 
 .project_1 {
-    max-width: 250px;
-    max-height: 250px;
+   padding: 10px;
 }
 
 .project_1 img {
     padding: 20px;
     max-width: 250px;
-    max-height: 250px;
-    border-radius: 0%;
 }
 
 .project_2 img {
     padding: 10px;
     max-width: 250px;
-    max-height: 250px;
     border-radius: 50%;
 }
 
 .project_3 img {
     padding: 10px;
-    max-width: 250px;
     max-height: 250px;
 }
 
@@ -173,6 +176,9 @@ label {
     font-size: large;
 }
 
+.third-project-img {
+    border-radius: 40px;
+}
 /*--PORTFOLIO MEDIA QUERY--*/
 
 @media screen and (min-width: 45em) {
@@ -180,7 +186,43 @@ label {
         margin: 0 auto;
         max-width: 1000px;
 
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+
     }
+
+    .project_1 {
+        grid-column: 1;
+    }
+
+    .text_1 {
+        grid-column: 2;
+        grid-row: 1;
+        margin-top: 10px;
+    }
+
+    .project_2 {
+        grid-column: 2;
+        grid-row: 2;
+    }
+
+    .text_2 {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .project_3 {
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    .text_3 {
+        grid-column: 2;
+        grid-row: 3;
+        margin-top: 20px;
+    }
+
     .port_title {
         margin: 0 auto;
         max-width: 500px;
@@ -205,9 +247,9 @@ label {
 /*--Contact--*/
 .contact-head {
     font-size: large;
-    padding: 10px;
+    margin-bottom: 8px;
     text-align: center;
-    text-transform: uppercase;
+    text-transform: uppercase;  
 }
 
 .full-name {
@@ -262,7 +304,8 @@ label {
 #submit {
     margin: 10px;
     margin-bottom: 10px;
-
+    background-color: #3F3F37;
+    color: white;
 }
 
 /*--CONTACT MEDIA QUERY--*/
