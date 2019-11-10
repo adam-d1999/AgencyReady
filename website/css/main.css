@@ -13,7 +13,7 @@ font-family: 'Roboto', sans-serif;
 html {
     box-sizing: border-box;
     font-size: 62.5%;
-    background-color: #EEEEEE;
+    background-color: ghostwhite;;
 }
 
 img {
@@ -23,7 +23,7 @@ img {
 h1, h2, h3, h4 {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
-
+    color: #764300;
 }
 
 p {
@@ -36,7 +36,7 @@ nav {
 
 a {
     text-decoration: none;
-    color: #E86829;
+    color: #764300;
 }
 
 label {
@@ -84,11 +84,12 @@ label {
     padding: 10px;
     font-variant: small-caps;
     font-size: 5rem;
+    color: black;
 }
 
 .hero-container h2 {
     padding: 10px;
-
+    color: black;
 
 }
 
@@ -297,7 +298,7 @@ label {
 }
 
 .contact-input {
-    border: solid #E86829 2px;
+    border: solid #764300 2px;
     padding: 5px;
 }
 
@@ -305,7 +306,7 @@ label {
     margin: 10px;
     margin-bottom: 10px;
     background-color: #3F3F37;
-    color: white;
+    color: ghostwhite;
 }
 
 /*--CONTACT MEDIA QUERY--*/
