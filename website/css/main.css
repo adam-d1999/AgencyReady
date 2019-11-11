@@ -23,11 +23,13 @@ img {
 h1, h2, h3, h4 {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
-    color: #764300;
+    color: navy;
 }
 
 p {
     font-family: 'ZCOOL XiaoWei', serif;
+    letter-spacing: 1px;
+    color: #010104;
 }
 
 nav {
@@ -36,7 +38,7 @@ nav {
 
 a {
     text-decoration: none;
-    color: #764300;
+    color: navy;
 }
 
 label {
@@ -60,6 +62,8 @@ label {
     font-size: 2rem;
      color: white;
 }
+
+
 
 .main-nav a:hover {
     border: solid white 3px;
@@ -298,7 +302,7 @@ label {
 }
 
 .contact-input {
-    border: solid #764300 2px;
+    border: solid navy 2px;
     padding: 5px;
 }
 
@@ -327,7 +331,11 @@ label {
 }
 
 .page-footer a {
-color: white;
+    color: white;
+}
+
+.page-footer p {
+    color: white;
 }
 
 /*--FOOTER MEDIA QUERY--*/
