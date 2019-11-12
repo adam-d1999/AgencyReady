@@ -329,6 +329,7 @@ label {
     color: white;
     padding: 10px;
     font-size: small;
+    text-align: center;
 }
 
 .page-footer a {
@@ -337,4 +338,6 @@ label {
 
 .page-footer p {
     color: white;
+    padding: 1px;
+    padding-top: 10px;
 }
