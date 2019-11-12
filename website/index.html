@@ -9,10 +9,10 @@
     <meta name= "description" content= "Portfolio page for Adam Downing, showcasing CV, Portfolio and Blogs.">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="keywords" content="MMU, Manchester, CSS, HTML, Portfolio, Blog">
-    <!-- stylesheet -->
-    <link rel="stylesheet" type="text/css" href="../website/css/main.css">
     <!-- fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto%7cZCOOL+XiaoWei&display=swap" rel="stylesheet">
+    <!-- stylesheet -->
+    <link rel="stylesheet" type="text/css" href="../website/css/main.css">
 </head>
 
 <body>
@@ -88,18 +88,18 @@
     </div>
 
     <label for ="full-name" class="contact-label">Full Name&colon;</label>
-    <input type="text" id="full-name" class="contact-input" placeholder="Your full name" required>
+    <input type="text" name = "name" id="full-name" class="contact-input" placeholder="Your full name" required>
 
     <label for ="email" class="contact-label">Your Email&colon;</label>
-    <input type="email" id="email" class="contact-input" placeholder="Your Email" required>
+    <input type="email" id="email" name = "_replyto" class="contact-input" placeholder="Your Email" required>
 
     <label for ="subject" class="contact-label">Subject&colon;</label>
     <input type="text" id="subject" class="contact-input" placeholder="Your Email" required>
 
     <label for ="message" class="contact-label">Message&colon;</label>
-    <input type="text" id="message" class="contact-input" placeholder="Your message" required>
+    <input type="text" id="message" name = "message" class="contact-input" placeholder="Your message" required>
 
-    <button class="contact-sub-button" id="submit" type="submit">Submit</button>
+    <button class="contact-sub-button" id="submit" type="submit" value = "Send" >Submit</button>
     </form>
   </section>  
 </main>

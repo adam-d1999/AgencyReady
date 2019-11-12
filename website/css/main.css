@@ -184,8 +184,8 @@ label {
 .third-project-img {
     border-radius: 40px;
 }
-/*--PORTFOLIO MEDIA QUERY--*/
 
+/*--PORTFOLIO MEDIA QUERY--*/
 @media screen and (min-width: 45em) {
     .portfolio_container {
         margin: 0 auto;
@@ -278,6 +278,7 @@ label {
     flex-direction: column;
     justify-content: center;
 }
+
 /*--CONTACT FORM--*/
 #full-name {
     margin: 10px;
@@ -337,6 +338,3 @@ label {
 .page-footer p {
     color: white;
 }
-
-/*--FOOTER MEDIA QUERY--*/
-

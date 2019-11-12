@@ -1,3 +1,8 @@
+/*--TYPOGRAPHY--
+font-family: 'ZCOOL XiaoWei', serif;
+font-family: 'Roboto', sans-serif;
+*/
+
 /*--GLOBAL STYLES--*/
 *, *::after, *::before {
     padding: 0;
@@ -44,6 +49,7 @@ a {
 label {
     font-family: 'ZCOOL XiaoWei', serif;
 }
+
 /*--NAVIGATION--*/
 .page-nav {
     background-color: black;
@@ -70,7 +76,6 @@ label {
 }
 
 /*--CONTENT--*/
-
 .cv-title {
     font-size: x-large;
     margin-bottom: 10px;
