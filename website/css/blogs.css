@@ -106,7 +106,8 @@ li {
     .grid-container {
         max-width: 1100px;
         margin: 0 auto;
-        flex-wrap: nowrap;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
         padding: 6rem 0;
         height: 100%;
     }
@@ -152,7 +153,7 @@ li {
     font-size: medium;
 }
 
-/*--BLOG PAGE 1 MEDIA QUERY--*/
+/*--BLOG PAGES MEDIA QUERY--*/
 
 @media screen and (min-width: 45em) {
     .blog-container {
@@ -164,11 +165,6 @@ li {
         max-width: 400px;
     }
 }
-
-/*--BLOG PAGE 2--*/
-
-
-/*--BLOG PAGE 3--*/
 
 /*--FOOTER--*/
 .page-footer {
